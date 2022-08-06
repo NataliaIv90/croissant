@@ -17,6 +17,16 @@ h1 {
   margin-bottom: 20px;
 }
 
+h2 {
+  font-weight: 500;
+  margin: 0px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(85, 107, 47, 0.8);
+  color: antiquewhite;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
+}
+
 a {
   color: darkgreen;
   text-decoration: none;
@@ -53,8 +63,12 @@ p {
 }
 
 .nav-links {
-  margin-top: 30px;
+  margin: 20px 60px;
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: rgba(165, 42, 42, 0.2);
+  border: 1px solid brown;
+  padding: 10px;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
 }
