@@ -30,7 +30,7 @@ p {
 .main-block {
   display: block;
   margin: 0 auto;
-  width: 90%;
+  width: 80%;
   height: auto;
   padding: 15px;
   border: 1px solid rgba(0, 0, 0, 0.1);
