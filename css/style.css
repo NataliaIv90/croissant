@@ -1,5 +1,5 @@
 body {
-  background-color: blanchedalmond;
+  background-color: rgb(250, 231, 206);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   max-width: 800px;
   display: block;
@@ -19,6 +19,19 @@ h1 {
 
 a {
   color: darkgreen;
+  text-decoration: none;
+  padding: 7px;
+  border-radius: 15px;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+
+  background-image: linear-gradient(
+    rgba(255, 238, 0, 0.381) 40%,
+    rgba(0, 102, 255, 0.46) 70%
+  );
 }
 
 p {
@@ -36,6 +49,7 @@ p {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.02);
+  background-color: rgba(240, 248, 255, 0.4);
 }
 
 .nav-links {
